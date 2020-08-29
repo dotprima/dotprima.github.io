@@ -26,21 +26,30 @@ Author:	Ukieweb
 
 ================================================ */
 
+
 /* ------------------
     General setting
 --------------------*/
+
 * {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
 body {
+    background: rgb(90, 16, 159);
+    background: linear-gradient(90deg, rgba(90, 16, 159, 1) 0%, rgba(140, 23, 199, 1) 49%, rgba(170, 0, 255, 1) 100%);
     font-size: 16px;
     line-height: 24px;
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 
@@ -72,7 +81,12 @@ h4 {
     margin-bottom: 24px;
 }
 
-p, ul, ol, pre, table, blockquote {
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -82,12 +96,19 @@ hr {
     margin: -1px 0;
 }
 
-ul ul, ol ol, ul ol, ol ul {
+ul ul,
+ol ol,
+ul ol,
+ol ul {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-b, strong, em, small, code {
+b,
+strong,
+em,
+small,
+code {
     line-height: 1;
 }
 
@@ -96,7 +117,8 @@ table {
     padding: 0;
 }
 
-sup, sub {
+sup,
+sub {
     vertical-align: baseline;
     position: relative;
     top: -0.4em;
@@ -111,7 +133,10 @@ a {
     outline: none;
 }
 
-a:hover, a:visited, a:focus, a:active {
+a:hover,
+a:visited,
+a:focus,
+a:active {
     text-decoration: none;
     outline: none;
 }
@@ -173,8 +198,7 @@ a:hover, a:visited, a:focus, a:active {
     margin-left: 0px;
 }
 
-.ukie-icons:hover {
-}
+.ukie-icons:hover {}
 
 .btn {
     border-style: solid;
@@ -207,14 +231,11 @@ a:hover, a:visited, a:focus, a:active {
     margin-bottom: 0px;
 }
 
-.btn:hover {
-}
+.btn:hover {}
 
-.btn-color {
-}
+.btn-color {}
 
-.btn-color:hover {
-}
+.btn-color:hover {}
 
 .block-grey {
     width: 100%;
@@ -262,6 +283,7 @@ a:hover, a:visited, a:focus, a:active {
     border-style: solid;
     margin: 50px auto;
     width: 1230px;
+    border-radius: 10px;
 }
 
 .scrollToTop {
@@ -281,7 +303,11 @@ a:hover, a:visited, a:focus, a:active {
     float: right;
 }
 
-.profile .head, .resume .head, .portfolio-header .head, .blog .head, .contact .head {
+.profile .head,
+.resume .head,
+.portfolio-header .head,
+.blog .head,
+.contact .head {
     border-top-width: 1px;
     border-top-style: solid;
 }
@@ -290,17 +316,23 @@ a:hover, a:visited, a:focus, a:active {
     border: 0;
     padding-bottom: 0;
 }
-#contents .btn-center .btn{
+
+#contents .btn-center .btn {
     margin-right: 0;
     margin-top: 0;
 }
-#contents .portfolio-section .btn-center .btn{
+
+#contents .portfolio-section .btn-center .btn {
     margin-top: 15px;
 }
+
+
 /* ------------------
     Menu-navigation
 --------------------*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
     border: none;
 }
 
@@ -316,14 +348,15 @@ a:hover, a:visited, a:focus, a:active {
     text-align: center;
 }
 
-.nav > li > a {
+.nav>li>a {
     position: relative;
     display: block;
     padding: 0;
     line-height: 46px;
     font-weight: 600;
 }
-.nav > li {
+
+.nav>li {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -351,25 +384,31 @@ a:hover, a:visited, a:focus, a:active {
 .navbar {
     border: none;
 }
+
 .navbar.navbar-inverse.navbar-static-top a:hover {
     border-bottom: 2px solid;
     line-height: 48px;
 }
 
-.navbar-inverse .navbar-nav a{
+.navbar-inverse .navbar-nav a {
     -webkit-transition: all 0.8s ease;
     -moz-transition: all 0.8s ease;
     -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
 }
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
     border-bottom: 2px solid;
     font-weight: 600;
 }
 
+
 /* ------------------
     Home header
 --------------------*/
+
 .home-header .foto {
     border-radius: 50%;
     border-width: 1px;
@@ -400,9 +439,11 @@ a:hover, a:visited, a:focus, a:active {
     margin-top: 24px;
 }
 
+
 /* ------------------
     Menu section
 --------------------*/
+
 .menu {
     padding: 48px 0;
     text-align: center;
@@ -491,7 +532,8 @@ a:hover, a:visited, a:focus, a:active {
     position: absolute;
     font-size: 30px;
     top: 40px;
-    left: 130px;;
+    left: 130px;
+    ;
 }
 
 .icons-menu {
@@ -557,9 +599,11 @@ a.icons-menu-button:focus,
     text-align: center;
 }
 
+
 /* ------------------
     Footer section
 --------------------*/
+
 .footer {
     line-height: 36px;
     padding: 17px 0;
@@ -567,24 +611,21 @@ a.icons-menu-button:focus,
     border-top-style: solid;
 }
 
-.footer a {
-}
+.footer a {}
 
-.footer .ukie-icons {
-}
+.footer .ukie-icons {}
 
-.footer a:hover {
-}
+.footer a:hover {}
 
-.footer a:hover .ukie-icons {
-}
+.footer a:hover .ukie-icons {}
 
-.footer .copyright {
-}
+.footer .copyright {}
+
 
 /* ------------------
     Home section
 --------------------*/
+
 .head {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -693,7 +734,9 @@ a.icons-menu-button:focus,
     width: 100%;
 }
 
-.home-content .row, .home-content .col-lg-7, .home-content .col-lg-5 {
+.home-content .row,
+.home-content .col-lg-7,
+.home-content .col-lg-5 {
     padding: 0;
     margin-right: 0;
     margin-left: 0;
@@ -710,7 +753,8 @@ a.icons-menu-button:focus,
     transition: all 0.3s;
 }
 
-.home-content a:hover .port-item-cont, .home-content a .port-item-cont.touch {
+.home-content a:hover .port-item-cont,
+.home-content a .port-item-cont.touch {
     opacity: 1;
     padding-top: 2%;
 }
@@ -787,9 +831,11 @@ a.icons-menu-button:focus,
     height: 536px;
 }
 
+
 /* ------------------
     Content
 --------------------*/
+
 .content .title {
     margin: 0;
     line-height: 26px;
@@ -826,17 +872,18 @@ a.icons-menu-button:focus,
     transition: all 0.5s ease-in-out;
 }
 
-.owl-theme .owl-controls .owl-buttons div:hover {
-}
+.owl-theme .owl-controls .owl-buttons div:hover {}
 
 .owl-theme .owl-controls {
     margin-top: 20px;
     text-align: left;
 }
 
+
 /* ------------------
     Skills section
 --------------------*/
+
 .skills .title {
     margin: 0;
     line-height: 26px;
@@ -903,9 +950,7 @@ a.icons-menu-button:focus,
     height: 110px !important;
 }
 
-.skills .circle-progress {
-
-}
+.skills .circle-progress {}
 
 .skills .circle-progress-label {
     font-size: 16px;
@@ -924,7 +969,9 @@ a.icons-menu-button:focus,
     position: relative;
 }
 
-.language-skills .progress:hover, .language-skills .progress:hover .ratyli .rate, .language-skills .progress:hover .ratyli .rate-empty {
+.language-skills .progress:hover,
+.language-skills .progress:hover .ratyli .rate,
+.language-skills .progress:hover .ratyli .rate-empty {
     webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
@@ -948,7 +995,9 @@ a.icons-menu-button:focus,
     margin-left: 3px;
 }
 
-.knowledge .col-xs-12, .knowledge .col-sm-12, .knowledge .col-lg-6 {
+.knowledge .col-xs-12,
+.knowledge .col-sm-12,
+.knowledge .col-lg-6 {
     padding-left: 0;
     margin-bottom: 0;
 }
@@ -971,9 +1020,11 @@ a.icons-menu-button:focus,
     margin-right: 10px;
 }
 
+
 /* ------------------
     Portfolio
 --------------------*/
+
 .portfolio .mix {
     margin-bottom: 30px;
     padding: 0;
@@ -1006,11 +1057,9 @@ a.icons-menu-button:focus,
     border-style: solid;
 }
 
-.portfolio li:hover {
-}
+.portfolio li:hover {}
 
-.portfolio li.active {
-}
+.portfolio li.active {}
 
 .portfolio li:first-child {
     margin-left: 0;
@@ -1041,20 +1090,20 @@ a.icons-menu-button:focus,
     transition: all 0.5s;
 }
 
-.portfolio-item:hover .port-item-cont, .portfolio-item .port-item-cont.touch {
+.portfolio-item:hover .port-item-cont,
+.portfolio-item .port-item-cont.touch {
     opacity: 1;
     padding-top: 35%;
 }
 
-.portfolio-item:hover .within, .portfolio-item .within.touch {
-}
+.portfolio-item:hover .within,
+.portfolio-item .within.touch {}
 
 .portfolio-item .title {
     margin: 0;
 }
 
-.portfolio-item .desc {
-}
+.portfolio-item .desc {}
 
 .portfolio-item a.view-work {
     font-size: 16px;
@@ -1067,8 +1116,7 @@ a.icons-menu-button:focus,
     border-style: solid;
 }
 
-.portfolio-item a.view-work:hover {
-}
+.portfolio-item a.view-work:hover {}
 
 .podrt-desc {
     max-width: 770px;
@@ -1126,7 +1174,8 @@ a.icons-menu-button:focus,
     z-index: 8040;
 }
 
-#fancybox-loading, .fancybox-close {
+#fancybox-loading,
+.fancybox-close {
     opacity: 1;
     width: 16px;
     height: 16px;
@@ -1169,7 +1218,9 @@ a.icons-menu-button:focus,
     visibility: visible;
 }
 
-#fancybox-loading, .fancybox-next span, .fancybox-prev span {
+#fancybox-loading,
+.fancybox-next span,
+.fancybox-prev span {
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: none;
@@ -1182,11 +1233,14 @@ a.icons-menu-button:focus,
     -moz-osx-font-smoothing: grayscale;
 }
 
-.fancybox-next span, .fancybox-prev span, .fancybox-next {
+.fancybox-next span,
+.fancybox-prev span,
+.fancybox-next {
     background-position: 0 0;
 }
 
-#fancybox-loading, .fancybox-prev span:before {
+#fancybox-loading,
+.fancybox-prev span:before {
     content: "\f104";
 }
 
@@ -1195,7 +1249,8 @@ a.icons-menu-button:focus,
     left: 18px;
 }
 
-#fancybox-loading, .fancybox-next span:before {
+#fancybox-loading,
+.fancybox-next span:before {
     content: "\f105";
 }
 
@@ -1223,9 +1278,11 @@ a.icons-menu-button:focus,
     height: auto;
 }
 
+
 /* ------------------
     Contact
 --------------------*/
+
 .contact-form input {
     width: 100%;
     line-height: 48px;
@@ -1237,10 +1294,10 @@ a.icons-menu-button:focus,
     outline: none;
 }
 
-.contact-form input.error {
-}
+.contact-form input.error {}
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
     border-width: 1px;
     border-style: solid;
 }
@@ -1302,10 +1359,16 @@ a.icons-menu-button:focus,
     border-width: 1px;
     border-style: solid;
 }
-.contact-form input:not([type="submit"]){min-height: 48px;}
+
+.contact-form input:not([type="submit"]) {
+    min-height: 48px;
+}
+
+
 /* ------------------
     Info
 --------------------*/
+
 .info .title {
     margin: 0 auto 30px;
 }
@@ -1328,35 +1391,36 @@ a.icons-menu-button:focus,
     border-radius: 50%;
     display: block;
     margin-bottom: 24px;
-
 }
 
 .info .circle-block .name {
     font-weight: 600;
 }
 
-.info .circle-block:hover .icon {
-}
+.info .circle-block:hover .icon {}
 
-.info .circle-block:hover .name {
-}
+.info .circle-block:hover .name {}
+
 
 /* ------------------
     Testimonials
 --------------------*/
+
 .testimonials .row {
     max-width: 970px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.testimonials .col-sm-7, .testimonials .col-lg-7 {
+.testimonials .col-sm-7,
+.testimonials .col-lg-7 {
     padding-left: 30px;
     padding-right: 0;
     border-top: none;
 }
 
-.testimonials .col-sm-5, .testimonials .col-lg-5 {
+.testimonials .col-sm-5,
+.testimonials .col-lg-5 {
     padding-left: 0;
     border-top: none;
     margin-bottom: 5%;
@@ -1403,13 +1467,15 @@ a.icons-menu-button:focus,
     text-align: left;
 }
 
-.flexslider > .flex-direction-nav {
+.flexslider>.flex-direction-nav {
     display: none;
 }
+
 
 /* ------------------
     clients
 --------------------*/
+
 .clients h3 {
     margin-top: 0;
 }
@@ -1435,9 +1501,11 @@ a.icons-menu-button:focus,
     margin-top: 35px;
 }
 
+
 /* ------------------
         Profile
 --------------------*/
+
 #wraper .content .green-marker {
     margin-right: 15px;
     font-size: 14px;
@@ -1453,9 +1521,11 @@ a.icons-menu-button:focus,
     font-size: 14px;
 }
 
+
 /* ------------------
         Pricing
 --------------------*/
+
 .pricing .title {
     margin: 0 auto 30px;
 }
@@ -1472,8 +1542,7 @@ a.icons-menu-button:focus,
     border-style: solid;
 }
 
-.table-pricing.best-pricing .header-pricing {
-}
+.table-pricing.best-pricing .header-pricing {}
 
 .table-pricing .price-pricing {
     line-height: 80px;
@@ -1486,8 +1555,7 @@ a.icons-menu-button:focus,
     border-style: solid;
 }
 
-.table-pricing.best-pricing .price-pricing {
-}
+.table-pricing.best-pricing .price-pricing {}
 
 .table-pricing .price-pricing sup {
     font-weight: 700;
@@ -1553,9 +1621,11 @@ a.icons-menu-button:focus,
     opacity: 0.6;
 }
 
+
 /* ------------------
     Instagram Feed
 --------------------*/
+
 .instagram-feed .title {
     margin: 0 auto 30px;
 }
@@ -1572,9 +1642,11 @@ a.icons-menu-button:focus,
     padding: 0;
 }
 
+
 /* ------------------
     My thoughts
 --------------------*/
+
 .my-thoughts .title {
     margin: 0 auto 30px;
 }
@@ -1592,6 +1664,7 @@ a.icons-menu-button:focus,
 .my-thoughts .ukie-icons {
     cursor: default;
 }
+
 
 /* ------------------
     Blog
@@ -1658,7 +1731,8 @@ a.icons-menu-button:focus,
     margin-bottom: 48px;
 }
 
-.blog .post.last, .blog .post.one-post {
+.blog .post.last,
+.blog .post.one-post {
     border: 0;
     padding-bottom: 0;
     margin-bottom: 48px;
@@ -1703,11 +1777,15 @@ a.icons-menu-button:focus,
 }
 
 .blog .post .txt-quote:before {
-    content: '\f10e'; /* FontAwesome char code inside the '' */
-    font-family: 'FontAwesome'; /* FontAwesome or whatever */
+    content: '\f10e';
+    /* FontAwesome char code inside the '' */
+    font-family: 'FontAwesome';
+    /* FontAwesome or whatever */
     display: inline-block;
-    width: 1.2em; /* same as padding-left set on li */
-    margin-right: 8px; /* same as padding-left set on li */
+    width: 1.2em;
+    /* same as padding-left set on li */
+    margin-right: 8px;
+    /* same as padding-left set on li */
 }
 
 .post .entry-byline {
@@ -1725,7 +1803,8 @@ a.icons-menu-button:focus,
     font-weight: 600;
 }
 
-.post .entry-byline span, .post .entry-byline time {
+.post .entry-byline span,
+.post .entry-byline time {
     font-size: 14px;
     font-weight: 600;
 }
@@ -1784,7 +1863,8 @@ a.icons-menu-button:focus,
     position: relative;
 }
 
-.blog .post-comment-txt:after, .blog .post-comment-txt:before {
+.blog .post-comment-txt:after,
+.blog .post-comment-txt:before {
     right: 100%;
     top: 25%;
     border: solid transparent;
@@ -1858,9 +1938,11 @@ a.icons-menu-button:focus,
     margin: 0;
 }
 
+
 /* ------------------
     Widget
 --------------------*/
+
 .widget {
     width: 100%;
     padding: 30px;
@@ -1903,11 +1985,15 @@ a.icons-menu-button:focus,
 }
 
 .widget_categories li:before {
-    content: '\f192'; /* FontAwesome char code inside the '' */
-    font-family: 'FontAwesome'; /* FontAwesome or whatever */
+    content: '\f192';
+    /* FontAwesome char code inside the '' */
+    font-family: 'FontAwesome';
+    /* FontAwesome or whatever */
     display: inline-block;
-    width: 1.2em; /* same as padding-left set on li */
-    margin-right: 8px; /* same as padding-left set on li */
+    width: 1.2em;
+    /* same as padding-left set on li */
+    margin-right: 8px;
+    /* same as padding-left set on li */
 }
 
 .widget_tag_cloud {
@@ -1955,9 +2041,11 @@ a.icons-menu-button:focus,
     border-width: 1px;
 }
 
+
 /* ------------------
     Search
 --------------------*/
+
 .head.search-head {
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -2033,9 +2121,11 @@ a.icons-menu-button:focus,
     margin: 0;
 }
 
+
 /* ------------------
     Pagination
 --------------------*/
+
 .pagination .page-numbers {
     border-width: 1px;
     border-style: solid;
@@ -2054,9 +2144,11 @@ a.icons-menu-button:focus,
     padding: 0 5px;
 }
 
+
 /* ------------------
     Total numbers
 --------------------*/
+
 .total-numbers {
     text-align: left;
 }
@@ -2074,7 +2166,8 @@ a.icons-menu-button:focus,
     position: relative;
 }
 
-.total-numbers .iconspace:after, .total-numbers .iconspace:before {
+.total-numbers .iconspace:after,
+.total-numbers .iconspace:before {
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -2107,9 +2200,11 @@ a.icons-menu-button:focus,
     display: block;
 }
 
+
 /* ------------------
     Animationload
 --------------------*/
+
 .animationload {
     position: fixed;
     top: 0;
@@ -2132,9 +2227,11 @@ a.icons-menu-button:focus,
     background-size: 50%;
 }
 
+
 /* ------------------
     Animated setting
 --------------------*/
+
 .animated {
     visibility: hidden;
 }
@@ -2143,9 +2240,11 @@ a.icons-menu-button:focus,
     visibility: visible;
 }
 
+
 /* ------------------
     Calendar
 --------------------*/
+
 .calendar h3 {
     margin-top: 0;
 }
@@ -2157,7 +2256,9 @@ a.icons-menu-button:focus,
     border: 1px solid;
 }
 
-.calendar-content .col-xs-12, .calendar-content .col-sm-4, .calendar-content .col-lg-4 {
+.calendar-content .col-xs-12,
+.calendar-content .col-sm-4,
+.calendar-content .col-lg-4 {
     padding: 0;
     margin-bottom: 0;
 }
@@ -2275,11 +2376,8 @@ a.icons-menu-button:focus,
     font-weight: 600;
 }
 
-.fc-calendar .fc-row > div, .fc-calendar .fc-body, .fc-calendar .fc-row {
+.fc-calendar .fc-row>div,
+.fc-calendar .fc-body,
+.fc-calendar .fc-row {
     border: none;
 }
-
-
-
-
-

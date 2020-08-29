@@ -80,6 +80,7 @@ Author:	Ukieweb
     margin: 7px;
 }
 
+
 /* ------------------
     Colors
 --------------------*/
@@ -114,9 +115,11 @@ Author:	Ukieweb
     background-color: #ae8c64;
 }
 
+
 /* ------------------
     Backgrounds
 --------------------*/
+
 .bg-grey {
     border: 0;
     background-color: #f5f5f5;
@@ -216,7 +219,8 @@ Author:	Ukieweb
     text-transform: uppercase;
 }
 
-.switch input:checked ~ label { /* Background */
+.switch input:checked~label {
+    /* Background */
     background: #E8E8E8;
     border: 1px solid #cfd8dc;
     -webkit-transition: all 0.8s ease-in-out;
@@ -226,7 +230,7 @@ Author:	Ukieweb
     transition: all 0.8s ease-in-out;
 }
 
-.switch input:checked ~ label i {
+.switch input:checked~label i {
     top: 0;
     left: 0;
     margin-right: 2px;
@@ -238,7 +242,7 @@ Author:	Ukieweb
     transition: all 0.5s ease-in-out;
 }
 
-.switch input:checked ~ label:before {
+.switch input:checked~label:before {
     content: "off";
     top: 49%;
     left: -33px;
@@ -246,4 +250,3 @@ Author:	Ukieweb
     font-size: 14px;
     font-weight: 600;
 }
-
