@@ -281,9 +281,9 @@ a:active {
 #wraper {
     border-width: 1px;
     border-style: solid;
-    margin: 50px auto;
+    margin: 20px auto;
     width: 1230px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .scrollToTop {
